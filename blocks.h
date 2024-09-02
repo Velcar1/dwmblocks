@@ -2,7 +2,7 @@
 #define SC(ruta) "$HOME/scripts/" #ruta
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
-	{"",	SC("vol.sh"),		0,		12},
+	{" ",	SC("vol.sh"),		0,		12},
 	{"",	SC("bateria.sh"), 	1,		0},
 	{"Mem:", "free -h | awk '/^Mem/ { print $3\"/\"$2 }' | sed s/i//g",	30,		0},
 
